@@ -10,6 +10,8 @@
 
 # Using kewlfft.aur from ansible-galaxy
 # Install with `ansible-galaxy collection install kewlfft.aur`
+# If it still throws a fit install it from the aur with:
+# `paru -S ansible-collection-kewlfft-aur`
 - name: Install paru
   kewlfft.aur.aur:
     name: paru
@@ -52,7 +54,7 @@
       - emacs
       - libreoffice
       - hunspell
-        #      - hunspell-en_us
+      - hunspell-en_us
       - hyphen
       - hyphen-en
       - libmythes
