@@ -20,8 +20,8 @@
   become: false
 
 - name: Install AUR packages
-  kewlfft.aur.aur:
   become: false
+  kewlfft.aur.aur:
     use: paru
     name:
       - awesome-git
