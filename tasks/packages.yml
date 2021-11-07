@@ -28,41 +28,41 @@
       - python-pywal
       - nitrogen
       - zsh
-      - zsh-syntax-highlighting 
+      - zsh-syntax-highlighting
       - zsh-autosuggestions
       - alacritty
-      - ranger 
-      - nnn 
-      - mpd 
-      - mpd-mpris 
+      - ranger
+      - nnn
+      - mpd
+      - mpd-mpris
       - playerctl
-      - mpc 
-      - ncmpcpp 
-      - nemo 
-      - neofetch 
-      - pfetch 
-      - lolcat 
-      - nerd-fonts-complete 
-      - htop 
-      - bashtop 
-      - keepassxc 
-      - yubioath-desktop 
-      - vim 
-      - neovim 
-      - emacs 
-      - libreoffice 
-      - hunspell 
+      - mpc
+      - ncmpcpp
+      - nemo
+      - neofetch
+      - pfetch
+      - lolcat
+      - nerd-fonts-complete
+      - htop
+      - bashtop
+      - keepassxc
+      - yubioath-desktop
+      - vim
+      - neovim
+      - emacs
+      - libreoffice
+      - hunspell
       - hunspell-en_us
-      - hyphen 
-      - hyphen-en 
-      - libmythes 
+      - hyphen
+      - hyphen-en
+      - libmythes
       - mythes-en
       - gimp
       - krita
       - feh
-      - brave-bin 
-      - firefox 
+      - brave-bin
+      - firefox
       - starship
-      - exa-git 
+      - exa-git
       - dust
   become: false
