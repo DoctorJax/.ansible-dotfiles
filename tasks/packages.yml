@@ -26,6 +26,9 @@
     name:
       - awesome-git
       - awesome-freedesktop-git
+      - lxappearance
+      - papirus-icon-theme
+      - arc-gtk-theme
       - rofi
       - picom-jonaburg-git
       - python-pywal
