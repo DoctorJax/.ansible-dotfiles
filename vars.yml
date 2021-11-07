@@ -1,8 +1,8 @@
 ---
 dotfiles_repo: "https://github.com/DoctorJax/.dotfiles"
-dotfiles_repo_local_destination: "/home/$USER/.dotfiles"
+dotfiles_repo_local_destination: "~/.dotfiles"
 
-home_path: "/home/$USER"
+home_path: "~"
 dotfiles:
   - .config
   - .emacs.d
