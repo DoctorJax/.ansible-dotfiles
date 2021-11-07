@@ -4,6 +4,7 @@
   git:
     repo: "{{ dotfiles_repo }}"
     dest: "{{ dotfiles_repo_local_destination }}"
+    force: yes
 
 - name: Clone DT's wallpapers repo
   become_user: jackson
