@@ -3,6 +3,9 @@
   connection: local
   become: true
 
+  vars_files:
+    - vars.yml
+
   pre_tasks:
     - name: update repos
       pacman: update_cache=yes

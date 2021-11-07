@@ -35,6 +35,7 @@
       - nnn 
       - mpd 
       - mpd-mpris 
+      - playerctl
       - mpc 
       - ncmpcpp 
       - nemo 
@@ -55,9 +56,13 @@
       - hyphen 
       - hyphen-en 
       - libmythes 
-      - mythes-en 
+      - mythes-en
+      - gimp
+      - krita
+      - feh
       - brave-bin 
       - firefox 
+      - starship
       - exa-git 
       - dust
   become: false
