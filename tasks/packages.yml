@@ -1,0 +1,62 @@
+---
+# Getting the main packages from pacman first
+- name: Installing required packages
+  pacman:
+    name:
+      - base-devel
+      - git
+    state: present
+  become: true
+
+# Using kewlfft.aur from ansible-galaxy
+# Install with `ansible-galaxy collection install kewlfft.aur`
+- name: Install paru
+  kewlfft.aur.aur:
+    name: paru
+    use: makepkg
+    state: present
+  become: false
+
+- name: Install AUR packages
+  kewlfft.aur.aur:
+    use: paru
+    name:
+      - awesome-git
+      - awesome-freedesktop-git
+      - rofi
+      - picom-jonaburg-git
+      - python-pywal
+      - nitrogen
+      - zsh
+      - zsh-syntax-highlighting zsh-autosuggestions
+      - alacritty
+      - ranger 
+      - nnn 
+      - mpd 
+      - mpd-mpris 
+      - mpc 
+      - ncmpcpp 
+      - nemo 
+      - neofetch 
+      - pfetch 
+      - lolcat 
+      - nerd-fonts-complete 
+      - htop 
+      - bashtop 
+      - keepassxc 
+      - yubioath-desktop 
+      - vim 
+      - neovim 
+      - emacs 
+      - libreoffice 
+      - hunspell 
+      - hunspell-en 
+      - hyphen 
+      - hyphen-en 
+      - libmythes 
+      - mythes-en 
+      - brave-bin 
+      - firefox 
+      - exa-git 
+      - dust
+  become: false
