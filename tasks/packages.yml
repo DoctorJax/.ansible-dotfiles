@@ -28,7 +28,8 @@
       - python-pywal
       - nitrogen
       - zsh
-      - zsh-syntax-highlighting zsh-autosuggestions
+      - zsh-syntax-highlighting 
+      - zsh-autosuggestions
       - alacritty
       - ranger 
       - nnn 
