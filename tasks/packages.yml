@@ -53,6 +53,7 @@
       - vim
       - neovim
       - emacs
+      - nodejs
       - libreoffice
       - hunspell
       - hunspell-en_us
