@@ -13,14 +13,14 @@
 # If it still throws a fit install it from the aur with:
 # `paru -S ansible-collection-kewlfft-aur`
 - name: Install paru
+  become_user: jackson
   kewlfft.aur.aur:
     name: paru
     use: makepkg
     state: present
-  become: false
 
 - name: Install AUR packages
-  become: false
+  become_user: jackson
   kewlfft.aur.aur:
     use: paru
     name:
