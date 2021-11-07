@@ -67,4 +67,8 @@
       - starship
       - exa-git
       - dust
+      - bat
+      - xfce4-clipman-plugin
+      - mailspring
+      - discord-canary
   become: false

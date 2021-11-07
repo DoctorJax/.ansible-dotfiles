@@ -5,6 +5,12 @@
     repo: "{{ dotfiles_repo }}"
     dest: "{{ dotfiles_repo_local_destination }}"
 
+- name: Clone DT's wallpapers repo
+  become_user: jackson
+  git:
+    repo: "https://gitlab.com/dwt1/wallpapers.git"
+    dest: "~/wallpapers"
+
 - name: Check if all the dotfiles are links
   become_user: jackson
   command: "ls -F {{ home_path }}/{{ item }}"
