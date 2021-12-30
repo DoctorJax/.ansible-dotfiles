@@ -24,6 +24,8 @@
   kewlfft.aur.aur:
     use: paru
     name:
+      - bspwm
+      - sxhkd
       - awesome-git
       - awesome-freedesktop-git
       - lxappearance
