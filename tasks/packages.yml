@@ -26,6 +26,9 @@
     name:
       - bspwm
       - sxhkd
+      - polybar
+      - pavucontrol
+      - acpi
       - awesome-git
       - awesome-freedesktop-git
       - lxappearance
